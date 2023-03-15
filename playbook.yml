@@ -1,0 +1,17 @@
+---
+- name: Deploy Docker Image to Container
+  hosts: all
+  tasks:
+    - name: Pull Docker Image
+      docker_image:
+        name: anoushkachouksey/speminiproject
+        tag: latest
+        source: pull
+
+    - name: Create & Start Calculator Docker Container
+      docker_container:
+        name: calculator-using-devops
+        image: anoushkachouksey/speminiproject
+        state: started
+        tty: yes
+        interactive: yes
