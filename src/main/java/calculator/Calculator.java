@@ -72,9 +72,9 @@ public class Calculator {
     }
 
 
-    public double factorial(double number1) {
+    public int factorial(int number1) {
         logger.info("[FACTORIAL] - " + number1);
-        double result = fact(number1);
+        int result = fact(number1);
         logger.info("[RESULT - FACTORIAL] - " + result);
         return result;
     }
@@ -114,8 +114,8 @@ public class Calculator {
         logger.info("[RESULT - NATURAL LOG] - " + result);
         return result;
     }
-    public double fact(double num) {
-        double facto = 1;
+    public int fact(int num) {
+        int facto = 1;
         for(int i = 1; i <= num; ++i)
         { facto *= i;   }
         return  facto;
