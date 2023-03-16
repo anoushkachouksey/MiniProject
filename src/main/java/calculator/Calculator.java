@@ -34,7 +34,7 @@ public class Calculator {
                     // Factorial
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
-                    System.out.println("Factorial of "+number1+" is : " + calculator.factorial((int)number1));
+                    System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
                     System.out.println("\n");
 
                     break;
@@ -72,9 +72,9 @@ public class Calculator {
     }
 
 
-    public int factorial(int number1) {
+    public double factorial(double number1) {
         logger.info("[FACTORIAL] - " + number1);
-        int result = fact(number1);
+        double result = fact(number1);
         logger.info("[RESULT - FACTORIAL] - " + result);
         return result;
     }
@@ -114,7 +114,7 @@ public class Calculator {
         logger.info("[RESULT - NATURAL LOG] - " + result);
         return result;
     }
-    public int fact(int num) {
+    public double fact(double num) {
         int facto = 1;
         for(int i = 1; i <= num; ++i)
         { facto *= i;   }
