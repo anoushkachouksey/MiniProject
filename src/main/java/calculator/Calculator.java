@@ -34,7 +34,7 @@ public class Calculator {
                     // Factorial
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
-                    System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
+                    System.out.println("Factorial of "+number1+" is : " + calculator.factorial((int)number1));
                     System.out.println("\n");
 
                     break;
