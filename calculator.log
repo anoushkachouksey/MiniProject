@@ -14,3 +14,11 @@
 2023-03-16 19:03:46.571 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - NaN
 2023-03-16 19:05:45.423 [main] INFO  calculator.Calculator - [NATURAL LOG] - 0.0
 2023-03-16 19:05:45.424 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - -Infinity
+2023-03-21 13:30:03.463 [main] INFO  calculator.Calculator - [FACTORIAL] - 8.0
+2023-03-21 13:30:03.466 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 40320.0
+2023-03-21 13:30:11.938 [main] INFO  calculator.Calculator - [SQ ROOT] - 78.0
+2023-03-21 13:30:11.939 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 8.831760866327848
+2023-03-21 13:31:30.341 [main] INFO  calculator.Calculator - [POWER - 7.0 RAISED TO] 6.0
+2023-03-21 13:31:30.347 [main] INFO  calculator.Calculator - [RESULT - POWER] - 117649.0
+2023-03-21 13:32:03.134 [main] INFO  calculator.Calculator - [NATURAL LOG] - 6.0
+2023-03-21 13:32:03.135 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 1.791759469228055

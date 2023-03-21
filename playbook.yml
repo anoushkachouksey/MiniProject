@@ -4,6 +4,7 @@
 
     - name: pull docker image
       shell: docker pull anoushkachouksey/speminiproject:latest
-
+    - name: creating volumes
+      shell: docker volume create logs
     - name: run container
-      shell: docker run -i -t --name calculator -d anoushkachouksey/speminiproject
+      shell: docker run -i -t --name calculator -d -v /logs:/logs anoushkachouksey/speminiproject
