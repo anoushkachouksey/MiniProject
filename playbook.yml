@@ -1,10 +1,12 @@
+---
 - name: Pull and run docker image
   hosts: localhost
+  vars:
+    ansible_python_interpreter: /usr/bin/python
   tasks:
-
     - name: pull docker image
-      shell: docker pull anoushkachouksey/speminiproject:latest
+      shell: docker pull anoushkachouksey/speminiproject
     - name: creating volumes
       shell: docker volume create logs
     - name: run container
-      shell: docker run -i -t --name calculator -d -v /logs:/logs anoushkachouksey/speminiproject
+      shell: docker run -it --name calculator -d -v /logs:/logs anoushkachouksey/speminiproject
