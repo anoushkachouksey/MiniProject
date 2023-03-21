@@ -1,8 +1,8 @@
 ---
 - name: Pull and run docker image
   hosts: localhost
-  vars:
-    ansible_python_interpreter: /usr/bin/python
+#  vars:
+#    ansible_python_interpreter: /usr/bin/python
   tasks:
     - name: pull docker image
       shell: docker pull anoushkachouksey/speminiproject
