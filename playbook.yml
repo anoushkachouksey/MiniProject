@@ -6,7 +6,5 @@
   tasks:
     - name: pull docker image
       shell: docker pull anoushkachouksey/speminiproject
-    - name: creating volumes
-      shell: docker volume create logs
     - name: run container
       shell: docker run -it --name calculator -d -v /logs:/logs anoushkachouksey/speminiproject
