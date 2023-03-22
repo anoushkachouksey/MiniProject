@@ -62,3 +62,9 @@
 2023-03-22 16:49:30.817 [main] INFO  calculator.Calculator-[RESULT-POWER]-25.0
 2023-03-22 16:49:33.612 [main] INFO  calculator.Calculator-[NATURAL LOG]-67.0
 2023-03-22 16:49:33.612 [main] INFO  calculator.Calculator-[RESULT-NATURAL LOG]-4.204692619390966
+2023-03-22 16:55:35.927 [main] INFO  calculator.Calculator-[FACTORIAL]-3.0
+2023-03-22 16:55:35.929 [main] INFO  calculator.Calculator-[RESULT-FACTORIAL]-6.0
+2023-03-22 16:55:37.530 [main] INFO  calculator.Calculator-[FACTORIAL]-4.0
+2023-03-22 16:55:37.531 [main] INFO  calculator.Calculator-[RESULT-FACTORIAL]-24.0
+2023-03-22 16:55:39.037 [main] INFO  calculator.Calculator-[FACTORIAL]-5.0
+2023-03-22 16:55:39.038 [main] INFO  calculator.Calculator-[RESULT-FACTORIAL]-120.0
